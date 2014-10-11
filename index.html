@@ -26,7 +26,9 @@
         ul.lesson-menu {margin:0;padding:0;background-color:#00aa00;color:#000000;list-style-type:none;width:100%;float:left;}
         li.lesson-menu-item {margin:5px;padding:10px;background-color:#ffff00;color:#000000;}
     </style>
-    <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script>
+    <!-- <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script> -->
+    <!-- changed so we can use phonegap.build 2014-10-11 -->
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="pepperaudio.js"></script>
     <script type="text/javascript">
     var my_media = null;
@@ -39,7 +41,9 @@
     //
     function onDeviceReady() {
         // Don't do much with this right now.
-        playAudio("/android_asset/www/sounds/PeppersPatch1.ogg");
+        //playAudio("/android_asset/www/sounds/PeppersPatch1.ogg");
+        // changed so we can use phonegap.build 2014-10-11
+        playAudio("/data/data/com.didgood.peppertest/sounds/PeppersPatch1.ogg");
     }
     </script>
 
