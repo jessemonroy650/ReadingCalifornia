@@ -1,0 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.didgood.peppertest"
+        version     = "1.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.5.0" />
+
+        <name>PepperTest</name>
+
+        <description>
+         Test of program build from 2.x build
+        </description>
+
+        <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
+        Jesse Monroy
+        </author>
+        <gap:plugin name="org.apache.cordova.device" />
+        <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+        <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+    </widget>
