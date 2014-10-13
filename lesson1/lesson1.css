@@ -1,12 +1,14 @@
 body {margin:0px;}
+* {margin:0px;padding:0px}
 
 #topSpacer {height:3em;}
 
 .thinBorder {border:solid 1px black;}
 .contentRight {text-align:right;}
 
-#leftSide {float:left;width:20%;}
-#rightSide {float:right;width:20%;}
+#wrapper {width:100%}
+#leftSide {float:left;width:20%;margin:0px;padding:0px;}
+#rightSide {float:right;width:20%;margin:0px;padding:0px;}
 
 #centerText {
 width:50%;
@@ -16,4 +18,16 @@ font-weight:bold;
 text-align:center;
 color:#22aacc;
 padding:1em;
+}
+
+#centerContent {
+text-align:center;
+width:50%;
+margin:0px auto;
+}
+
+@media screen and (max-width:495px) {
+#imglesson {width:100%}
+#leftSide {float:left;width:78px;
+#rightSide {float:right;width:78px;
 }
