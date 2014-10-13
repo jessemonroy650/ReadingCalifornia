@@ -8,8 +8,8 @@
   <meta name='viewport' content="width=320; initial-scale=0.6; minimum-scale=3; maximum-scale=3; user-scalable=yes;" />
   // -->
   <style>
-  body {margin:0px;}
   </style>
+  <link rel="stylesheet" href="lesson1.css" />
     <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="pepperaudio.js"></script>
     <script type="text/javascript">
@@ -29,21 +29,21 @@
 
 </head>
 <body>
-  <div style="height:3em;">
+  <div id="topSpacer">
   </div>
   <div id="wrapper">
-    <div id="leftSide" style="float:left;width:20%;border:solid 1px black;">
+    <div id="leftSide" class="thinBorder">
       <img src='images/place_holder.png' />
       <br/><br/><br/>
       <a href='../index.html'><img src='images/left-arrow.png'></a>
     </div>
-    <div id="rightSide" style="float:right;width:20%;border:solid 1px black;text-align:right;">
+    <div id="rightSide" class="thinBorder contentRight">
       <img src='images/replay_button.png' onclick="javascript:onDeviceReady();" />
       <br/><br/><br/>
       <a href='img2.html'><img src='images/right-arrow.png'></a>
     </div>
     <center>
-    <div style="width:50%;border:solid 1px black;text-align:center;font-family:sans-serif;font-size:large;font-weight:bold;padding:1em;color:#22aacc;">
+    <div id=centerText class="thinBorder">
       Say the sound and<br>
       Say the picture, if you can.<p>
       On the next slide, say the sound and<br>
