@@ -13,7 +13,7 @@ body {margin:0px;}
 #centerText {
 width:50%;
 font-family:sans-serif;
-font-size:large;
+font-size:x-large;
 font-weight:bold;
 text-align:center;
 color:#22aacc;
@@ -30,4 +30,5 @@ margin:0px auto;
 #imglesson {width:100%}
 #leftSide {float:left;width:78px;
 #rightSide {float:right;width:78px;
+#centerText {font-size:large;}
 }
