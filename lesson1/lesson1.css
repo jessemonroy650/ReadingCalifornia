@@ -3,7 +3,8 @@ body {margin:0px;font-size:1em;}
 
 #topSpacer {height:3em;}
 
-.thinBorder {border:solid 1px black;}
+/* .thinBorder {border:solid 1px black;} */
+.thinBorder {}
 .contentRight {text-align:right;}
 
 #wrapper {width:100%}
