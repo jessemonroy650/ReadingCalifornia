@@ -1,46 +1,44 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta charset='utf-8'>
-<title>u - umbrella</title>
-<meta name='viewport' content="width=320; initial-scale=0.6; minimum-scale=3; maximum-scale=3; user-scalable=yes;" />
-<style>
-td {text-align:center:vertical-align:middle;}
-.lesson_font {font-family:sans-serif;font-size:xx-large;font-weight:bold;padding:1em;color:#000000;}
-.stock_font {font-family:sans-serif;font-size:x-large;font-weight:bold;padding:1em;color:#cc2222;}
-.copy_font  {font-family:sans-serif;font-size:small;font-weight:bold;padding:1em;color:#224422;text-align:center;}
-</style>
-    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
-    <script type="text/javascript" charset="utf-8" src="pepperaudio.js"></script>
-    <script type="text/javascript">
+  <meta charset='utf-8'>
+  <title>u - umbrella</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="lesson1.css" />
+  <style></style>
+  <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+  <script type="text/javascript" charset="utf-8" src="pepperaudio.js"></script>
+  <script type="text/javascript">
     var my_media = null;
     var mediaTimer = null;
-
     // Wait for PhoneGap to load
     //
     document.addEventListener("deviceready", onDeviceReady, false);
     // PhoneGap is ready
-    //
     function onDeviceReady() {
         // Don't do much with this right now.
-        playAudio("/android_asset/www/lesson1/sounds/u.ogg");
+        playAudio("/android_asset/www/lesson1/sounds/SOUND");
     }
-    </script>
+  </script>
 </head>
-
 <body>
-
-<center>
-<table cellpadding=0 cellspacing=0>
-<tr>
-<td><a href='../index.html'><img src='images/home-icon.jpg'></a><br/><br/><br/><a href='img41.html'><img src='images/left-arrow.png'></a></td>
-<td><img border=0 src='img42.jpg' alt='u - umbrella'></td>
-<td><img src='images/replay_button.png' onclick="javascript:onDeviceReady()" /><br/><br/><br/><a href='img43.html'><img src='images/right-arrow.png'></a></td>
-</tr>
-</table>
-</center>
-
-<div class=copy_font></div>
+  <div id="topSpacer">
+  </div>
+  <div id="wrapper">
+    <div id="leftSide" class="thinBorder">
+      <a href='../index.html'><img src='images/home-icon.png'></a>
+      <br/><br/><br/>
+      <a href='img41.html'><img src='images/left-arrow.png'></a>
+    </div>
+    <div id="rightSide" class="thinBorder contentRight">
+      <img src='images/replay_button.png' onclick="javascript:onDeviceReady();" />
+      <br/><br/><br/>
+      <a href='img43.html'><img src='images/right-arrow.png'></a>
+    </div>
+    <center>
+    <div id=centerContent class="thinBorder">
+      <img id=imagelesson border=0 src='img42.jpg' alt='u - umbrella'>
+    </center>
+  </div>
 </body>
 </html>
-

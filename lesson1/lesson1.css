@@ -1,4 +1,4 @@
-body {margin:0px;}
+body {margin:0px;font-size:1em;}
 * {margin:0px;padding:0px}
 
 #topSpacer {height:3em;}
@@ -26,9 +26,10 @@ width:50%;
 margin:0px auto;
 }
 
-@media (max-width:495px) {
-#imglesson {width:100%}
-#leftSide {float:left;width:78px;
-#rightSide {float:right;width:78px;
+@media screen and (max-width:495px) {
+#imagelesson {width:100%}
+#leftSide {float:left;width:78px;}
+#rightSide {float:right;width:78px;}
 #centerText {font-size:1em;}
 }
+
