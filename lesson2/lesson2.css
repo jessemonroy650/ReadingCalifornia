@@ -6,8 +6,8 @@ body {margin:0px;font-size:1em;}
 /* .thinBorder {border:solid 1px black;} */
 .thinBorder {}
 .contentRight {text-align:right;}
-.lesson_font {font-family:sans-serif;font-size:xx-large;font-weight:bold;padding:1em;color:#000000;}
-.stock_font {font-family:sans-serif;font-size:x-large;font-weight:bold;padding:1em;color:#cc2222;}
+.lesson_font {font-family:sans-serif;font-size:x-large;font-weight:bold;padding:1em;color:#000000;}
+.stock_font {font-family:sans-serif;font-size:large;font-weight:bold;padding:1em;color:#cc2222;}
 
 
 #wrapper {width:100%}
@@ -16,6 +16,7 @@ body {margin:0px;font-size:1em;}
 
 #centerText {
 width:50%;
+min-height:360px;
 font-family:sans-serif;
 font-size:1.5em;
 font-weight:bold;
@@ -27,6 +28,7 @@ padding:1em;
 #centerContent {
 text-align:center;
 width:50%;
+min-height:360px;
 margin:0px auto;
 }
 
@@ -35,13 +37,13 @@ font-family:sans-serif;
 font-size:xx-large;
 font-weight:bold;
 padding:1em;
-color:#000000;}
-
+color:#000000;
+}
 
 @media screen and (max-width:495px) {
 #imagelesson {width:100%}
 #leftSide {float:left;width:78px;}
 #rightSide {float:right;width:78px;}
 #centerText {font-size:1em;}
+#centerContent {min-height:240px;}
 }
-
