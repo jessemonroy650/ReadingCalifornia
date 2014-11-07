@@ -10,16 +10,26 @@
 
         <preference name="phonegap-version" value="3.5.0" />
 
-        <name>PepperTest</name>
+        <name>Pepper's Patch</name>
 
         <description>
-         Test of program build from 2.x build
+        Peppper's Patch, teaching the masses to read.
         </description>
 
         <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
         Jesse Monroy
         </author>
+        <icon src="res/drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
+        <icon src="res/drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
+        <icon src="res/drawable-hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi" />
+        <icon src="res/drawable-xhdpi/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+        <icon src="res/drawable-xxhdpi/icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+        <icon src="res/drawable-xxxhdpi/icon.png" gap:platform="android" gap:qualifier="xxxhdpi" />
+
+        <preference name="permissions" value="none"/>
+
         <gap:plugin name="org.apache.cordova.device" />
         <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
         <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+        <gap:plugin name="org.apache.cordova.vibration" />
     </widget>
