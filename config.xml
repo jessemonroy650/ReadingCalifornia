@@ -2,7 +2,7 @@
     <widget xmlns = "http://www.w3.org/ns/widgets"
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.didgood.peppertest"
+        id          = "com.readingcalifornia.reading"
         version     = "1.0"
         versionCode = "10" >
 
@@ -32,7 +32,7 @@
         <preference name="permissions" value="none"/>
 
         <gap:plugin name="org.apache.cordova.device" />
-        <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
-        <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
+        <gap:plugin name="org.apache.cordova.media" />
+        <gap:plugin name="org.apache.cordova.splashscreen" />
         <gap:plugin name="org.apache.cordova.vibration" />
     </widget>

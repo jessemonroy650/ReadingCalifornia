@@ -1,5 +1,6 @@
 .gitignore
 gitUpdatePage
+# Files below here should be removed from the directory and the tree
 lesson1/img1.html.0
 lesson1/img1.html.1
 lesson1/scratchpad.here
@@ -9,3 +10,5 @@ scratchpad.here
 lessonMake/
 lessonMake3/
 tmp/
+index1.html
+lesson3/index2.html
