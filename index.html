@@ -11,6 +11,7 @@
         a {text-decoration:none;color:#000000;}
         h2 {margin:10px;}
         .copyright {padding:5px;align:left;font-style:italic;font-size:small;}
+		.email-link {font-size:small;}
         .feedbackbox {margin:20px;padding:10px;}
         .clear {clear:both;}
         .banner {}
@@ -24,8 +25,11 @@
 		.spacer {height:0.5em;}
         ul.menu {margin:0;padding:0;color:#000000;list-style-type:none;width:100%;float:left;}
         li.menu-item {margin:5px;padding:10px;background-color:#ffff00;color:#000000;float:left;font-size:x-large;}
-        ul.lesson-menu {margin:0;padding:0;background-color:#ffff00;color:#000000;list-style-type:none;width:100%;float:left;}
-        li.lesson-menu-item {margin:5px;padding:10px;background-color:#ffff00;color:#000000;font-size:large;}
+        ul.lesson-menu {margin:0;padding:0;color:#000000;list-style-type:none;width:100%;float:left;}
+        li.lesson-menu-item {margin:0.2em;padding:0.1em;}
+		@media only screen and (min-width:321px) and (max-width:600px) {
+        	li.lesson-menu-item {font-size:x-large;}
+		}
     </style>
     <!-- <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script> -->
     <!-- changed so we can use phonegap.build 2014-10-11 -->
@@ -72,22 +76,27 @@ style="margin-right:1em;">Exit</li></span>
     <div class=target>
         <ul class=lesson-menu>
             <a href=lesson1/img1.html><li 
-class="button button-block button-rounded button-primary button-large">26 Sounds</li></a>
+class="button button-block button-rounded button-primary button-large lesson-menu-item">26 Sounds</li></a>
             <a href=lesson2/img1.html><li 
-class="button button-block button-rounded button-primary button-large">3 Letter Blending</li></a>
+class="button button-block button-rounded button-primary button-large lesson-menu-item">3 Letter Blending</li></a>
             <!-- This contains multiple lessons. -->
             <a href=lesson3/index.html><li 
-class="button button-block button-rounded button-primary button-large">Reading Practice</li></a>
+class="button button-block button-rounded button-primary button-large lesson-menu-item">Reading Practice</li></a>
             <a href=lesson5/img1.html><li 
-class="button button-block button-rounded button-primary button-large">Advanced Sound Dictionary</li></a>
+class="button button-block button-rounded button-primary button-large lesson-menu-item">Advanced Sound Dictionary</li></a>
             <a href=lesson4/img1.html><li 
-class="button button-block button-rounded button-primary button-large">Advanced Sound Practice</li></a>
+class="button button-block button-rounded button-primary button-large lesson-menu-item">Advanced Sound Practice</li></a>
         </ul>
     </div>
 
 <p class=clear />&nbsp;
 
-<center><p class=clear />Email: <a href="mailto:sales@ReadingCalifornia.com">sales@ReadingCalifornia.com</a></center>
+<div class=email-link>
+	<center>
+	<p class=clear />Email: 
+	<a href="mailto:sales@ReadingCalifornia.com">sales@ReadingCalifornia.com</a>
+	</center>
+</div>
 
 <div class=copyright>
     <span class=float-left>Created by Reading California &copy; 2014</span>
