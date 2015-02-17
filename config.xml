@@ -10,11 +10,8 @@
 
         <preference name="phonegap-version" value="3.5.0" />
 
-        <name>Peppers Patch</name>
-
-        <description>
-        Peppper's Patch, teaching the masses to read.
-        </description>
+        <name>Reading California</name>
+        <description>Reading California, teaching the masses to read.</description>
 
         <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">
         Jesse Monroy
