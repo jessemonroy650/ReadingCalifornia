@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>ay</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="lesson4.css" />
+  <style></style>
+  <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+  <script type="text/javascript" charset="utf-8" src="pepperaudio.js"></script>
+  <script type="text/javascript">
+    var my_media = null;
+    var mediaTimer = null;
+    // Wait for PhoneGap to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+    // PhoneGap is ready
+    function onDeviceReady() {
+        // Don't do much with this right now.
+        playAudio("/android_asset/www/lesson4/sounds/10.ogg");
+    }
+  </script>
+</head>
+<body>
+  <div id="topSpacer">
+  </div>
+  <div id="wrapper">
+    <div id="leftSide" class="thinBorder">
+      <a href='../index.html'><img src='images/home-icon.png'></a>
+      <br/><br/><br/>
+      <a href='img5.html'><img src='images/left-arrow.png'></a>
+    </div>
+    <div id="rightSide" class="thinBorder contentRight">
+      <img src='images/replay_button.png' onclick="javascript:onDeviceReady();" />
+      <br/><br/><br/>
+      <a href='img7.html'><img src='images/right-arrow.png'></a>
+    </div>
+    <center>
+    <div id=centerContent class="thinBorder">
+      <span id=lesson_font>ay</span>
+      <img id=imagelesson border=0 src='image024.gif' alt='ay'>
+    </div>
+    <div id=lesson_font>hay play bay lay pay way ray may tray spray delay clay way away jay stay slay</div>
+    </center>
+  </div>
+</body>
+</html>
