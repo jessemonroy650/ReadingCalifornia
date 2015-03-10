@@ -9,7 +9,9 @@ body {margin:0px;font-size:1em;}
 
 #wrapper {width:100%}
 #leftSide {float:left;width:20%;margin:0px;padding:0px;}
+#home-icon {margin:0 10%;}
 #rightSide {float:right;width:20%;margin:0px;padding:0px;}
+#replay_button {margin:0 10%}
 
 #centerText {
 width:50%;
