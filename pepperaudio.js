@@ -2,6 +2,7 @@
         // Audio player
         //
         // v1.0.1 - 2013-01-26 - removed alert() from onError()
+		// v1.1.0 - 2015-03-23 - added volume control (should be global)
 
         // Play audio
         //
@@ -51,6 +52,12 @@
             clearInterval(mediaTimer);
             mediaTimer = null;
         }
+
+		// Control audio on/off
+		// level = 0.0(all off)<->1.0(all on)
+		function volumeAudio(level) {
+			media.setVolume(level);
+		}
 
         // onSuccess Callback
         //
