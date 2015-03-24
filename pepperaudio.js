@@ -56,7 +56,7 @@
 		// Control audio on/off
 		// level = 0.0(all off)<->1.0(all on)
 		function volumeAudio(level) {
-			alert("my_media.setVolume:" + level)
+			//alert("my_media.setVolume:" + level)
 			my_media.setVolume(level);
 		}
 
