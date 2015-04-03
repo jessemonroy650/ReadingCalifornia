@@ -8,7 +8,7 @@
 
         <!-- versionCode is optional and Android only -->
 
-        <preference name="phonegap-version" value="3.5.0" />
+        <preference name="phonegap-version" />
 
         <name>Reading California</name>
         <description>Reading California, teaching the masses to read.</description>
