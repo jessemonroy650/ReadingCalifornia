@@ -5,10 +5,10 @@
         id          = "com.readingcalifornia.reading1"
         version     = "1.0"
         versionCode = "10" >
-
         <!-- versionCode is optional and Android only -->
 
-        <preference name="phonegap-version" />
+        <!-- Tool Set Version --> 
+        <preference name='phonegap-version' value='cli-6.0.0' />
 
         <name>Reading California</name>
         <description>Reading California, teaching the masses to read.</description>
@@ -28,7 +28,7 @@
 
         <preference name="permissions" value="none"/>
 
-        <!-- <gap:plugin name="org.apache.cordova.device" /> -->
+        <gap:plugin name="org.apache.cordova.device" />
         <gap:plugin name="org.apache.cordova.media" />
         <gap:plugin name="org.apache.cordova.splashscreen" />
         <gap:plugin name="org.apache.cordova.vibration" />
