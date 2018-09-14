@@ -28,7 +28,8 @@
 
         <preference name="permissions" value="none"/>
 
-        <gap:plugin name="org.apache.cordova.device" />
+        <!-- <gap:plugin name="org.apache.cordova.device" /> -->
+        <plugin name="cordova-plugin-device" spec="~2.0.2" />
         <gap:plugin name="org.apache.cordova.media" />
         <gap:plugin name="org.apache.cordova.splashscreen" />
         <gap:plugin name="org.apache.cordova.vibration" />
