@@ -30,7 +30,10 @@
 
         <!-- <gap:plugin name="org.apache.cordova.device" /> -->
         <plugin name="cordova-plugin-device" spec="~2.0.2" />
-        <gap:plugin name="org.apache.cordova.media" />
-        <gap:plugin name="org.apache.cordova.splashscreen" />
-        <gap:plugin name="org.apache.cordova.vibration" />
+        <!-- <gap:plugin name="org.apache.cordova.media" /> -->
+        <plugin name="cordova-plugin-media" spec="~5.0.2" />
+        <!-- <gap:plugin name="org.apache.cordova.splashscreen" /> -->
+        <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+        <!--<gap:plugin name="org.apache.cordova.vibration" /> -->
+        <plugin name="cordova-plugin-vibration" spec="~3.1.0" />
     </widget>
