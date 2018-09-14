@@ -18,8 +18,7 @@
         </author>
 
         <gap:platform name="android" />
-        <gap:platform name="ios" />
-
+        
         <icon src="res/drawable-ldpi/icon.png" gap:platform="android" gap:qualifier="ldpi" />
         <icon src="res/drawable-mdpi/icon.png" gap:platform="android" gap:qualifier="mdpi" />
         <icon src="res/drawable-hdpi/icon.png" gap:platform="android" gap:qualifier="hdpi" />
@@ -29,7 +28,7 @@
 
         <preference name="permissions" value="none"/>
 
-        <gap:plugin name="org.apache.cordova.device" />
+        <!-- <gap:plugin name="org.apache.cordova.device" /> -->
         <gap:plugin name="org.apache.cordova.media" />
         <gap:plugin name="org.apache.cordova.splashscreen" />
         <gap:plugin name="org.apache.cordova.vibration" />
