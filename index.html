@@ -60,22 +60,22 @@
         playAudio("file:///android_asset/www/sounds/PeppersPatch1.ogg");
     };
 
-	function toggleVolume() {
-		el = document.getElementById('volume');
-		if (volume > 0 ) {
-			volume = 0.0;
-			el.innerHTML = 'Audio&nbsp;is&nbsp;Off';
-			el.classList.remove('button-action');
-			el.classList.add('button-caution');
-		} else {
-			volume = 1.0;
-			el.innerHTML = 'Audio&nbsp;is&nbsp;On';
-			el.classList.remove('button-caution');
-			el.classList.add('button-action');
-		}
-		//alert("toggleVolume:" + volume)
-		volumeAudio(volume);		
-	}
+    function toggleVolume() {
+        el = document.getElementById('volume');
+        if (volume > 0 ) {
+            volume = 0.0;
+            el.innerHTML = 'Audio&nbsp;is&nbsp;Off';
+            el.classList.remove('button-action');
+            el.classList.add('button-caution');
+        } else {
+            volume = 1.0;
+            el.innerHTML = 'Audio&nbsp;is&nbsp;On';
+            el.classList.remove('button-caution');
+            el.classList.add('button-action');
+        }
+        //alert("toggleVolume:" + volume)
+        volumeAudio(volume);		
+    }
     </script>
 
 </head>
@@ -84,7 +84,7 @@
         <tr>
         <td align=left valign=center width=90px><a href="http://www.pepperspatch.com/"></a><img border=0 width=90px height=72px src=res/drawable-hdpi/icon.png></td>
         <td align=left valign=center>
-            <div class=title>Reading California<span style=font-size:small;> &copy;2018</span></div>
+            <div class=title>Reading California<span style=font-size:small;> &copy;2018a</span></div>
 			<!-- <div class=subtitle>Teaching Reading to the Masses</div> -->
         </td>
     </table>
