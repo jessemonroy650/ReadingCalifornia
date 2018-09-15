@@ -2,7 +2,8 @@
         // Audio player
         //
         // v1.0.1 - 2013-01-26 - removed alert() from onError()
-		// v1.1.0 - 2015-03-23 - added volume control (should be global)
+        // v1.1.0 - 2015-03-23 - added volume control (should be global)
+        // v1.2.0 - 2018-09-14 - uncomment onError()
 
         // Play audio
         //
